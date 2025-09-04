@@ -1,3 +1,9 @@
-PyPDF2
+fastapi
+uvicorn[standard]
+gunicorn
 pandas
-pdfminer.six
+numpy
+openpyxl
+python-multipart
+pdfplumber
+openai
