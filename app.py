@@ -481,14 +481,14 @@ def health() -> Dict[str, str]:
 # =========================
 # Entrypoint
 # =========================
+# REMOVE THIS for Cloud Run GitHub source deploy
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(
+#         "app:app",
+#         host="0.0.0.0",
+#         port=int(os.environ.get("PORT", 8080)),
+#         reload=os.environ.get("RELOAD", "false").lower() == "true",
+#     )
 
-"""if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(
-        "app:app",
-        host="0.0.0.0",
-        port=int(os.environ.get("PORT", 8080)),
-        reload=os.environ.get("RELOAD", "false").lower() == "true",
-    )
-"""
 
