@@ -482,7 +482,7 @@ def health() -> Dict[str, str]:
 # Entrypoint
 # =========================
 
-if __name__ == "__main__":
+"""if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
         "app:app",
@@ -490,4 +490,5 @@ if __name__ == "__main__":
         port=int(os.environ.get("PORT", 8080)),
         reload=os.environ.get("RELOAD", "false").lower() == "true",
     )
+"""
 
